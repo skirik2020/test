@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Philosopher";
+  src: url("fonts/Philosopher-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+// @font-face {
+//   font-family: "e-Ukraine";
+//   src: url("font/e-Ukraine-Bold.otf");
+//   font-weight: bold;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "e-Ukraine";
+//   src: url("font/e-Ukraine-Light.otf");
+//   font-weight: 300;
+//   font-style: normal;
+// }
+main{
+  padding: 100px;
+}
+.breadcrumbs{
+  margin-bottom: 30px;
+  a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #BEA183;
+  }
+}
+#take-measurements{
+  h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 48px;
+    line-height: 54px;
+    margin-bottom: 70px;
+    font-weight: 400; 
+
+  }
+}
